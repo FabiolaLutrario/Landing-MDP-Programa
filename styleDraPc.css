@@ -1,0 +1,82 @@
+#logo{
+    margin: 0;
+    width: 11rem;
+    height: 4rem;
+}
+
+li a:hover{
+    background-color:rgba(59, 56, 56, 0.253);
+}
+
+.container-promotions{
+    padding: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: #dbe2e2af;
+}
+
+@media screen and (max-width:480px){
+    #imgPromotions{
+        display:none;
+    }
+    #logo{
+        width: 20%;
+        height: 20%;
+    }
+}
+
+#promotions h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: auto;
+}
+
+#promotions img{
+    width: 80%;
+}
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-group{
+    background-color: #dbe2e2af;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#titleProducts{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#products{
+    text-align: center;
+}
+
+.card-group{
+    margin-bottom: 20px;
+}
+
+#products img{
+    width: 20rem;
+    height: 10rem;
+}
+
+@media screen and (max-width:1200px){
+    #products img{
+        width: 100%; 
+    }
+
+}
+
+footer{
+    background: linear-gradient(180deg, #f7e9e9, #f4e4d4, #e9ddce, #dfd8cd, #ded2c3);
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    color: rgb(100,100,100);
+}
